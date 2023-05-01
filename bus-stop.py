@@ -38,15 +38,15 @@ else:
     print('Game over.')
   else:
       print("The driver apologizes for being a little late.")
-      print("Somthing is strange. The Bus's design seems from 40 years ago")
-      print("but the behicle looks brand new.")  
+      print("Somthing is strange. The Bus' design seems from 40 years ago")
+      print("but the vehicle itself looks brand new.")  
       input("press enter to continue")
-      print("It is your bus!! But apears to be lost in time")
+      print("It's your bus!! but it appears to be lost in time.")
       print('''
-              As it dropps you by your place, you take a look around and realize you travelled in time
-              people are dressed in and have different hair style. 
-              Awesome! Don't tell anyone. 
-              Go win the lotery and buy some stocks.
+              As it drops you off at your destination, you take a look around and realize that you have traveled through time.
+              People are dressed differently and have different hairstyles 
+              Awesome! Don't tell anyone! 
+              Go win the lottery and buy some stocks.
               You win!
            ''') 
     
