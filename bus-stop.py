@@ -45,7 +45,7 @@ else:
     print('Game over.')
   else:
       print("The driver apologizes for being a little late.")
-      print("Somthing is strange. The Bus' design seems from 40 years ago")
+      print("Something is strange. The Bus' design seems from 40 years ago")
       print("but the vehicle itself looks brand new.")  
       input("press enter to continue")
       print("It's your bus!! but it appears to be lost in time.")
