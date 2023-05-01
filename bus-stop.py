@@ -15,13 +15,11 @@ print("\nYou find yourself at a bus stop, late at night, when a **FROG** suddenl
 print("It is big and unlike any you've seen before. You are bored. Despite feeling bored,\nyou can't help but sense that this is a special night.\n However, you also feel a bit afraid.")
 print("Kiss it? (type: 'yes' or 'no')")
 kiss_frog = input().lower()
-print('''
-         o-o
-        /,_,\\
-      ,Mm/_\\mM,
-''')
+
 
 if kiss_frog == 'yes':
+    print('          ,-.___.-.\n       ,-.(|)   (|),-.\n       \\_*._ \' \'_.* _/\n        /`-.`--\' .-\'\\\n   ,--./    `---\'    \\,--.\n   \\   |(  )     (  )|   /\n    \\  | ||       || |  /\n     \\ | /|\\     /|\\ | /\n     /  \\-._     _,-/  \\\n    //| \\\\  `---\'  // |\\\\\n   /,-.,-\\.       /,-.,-.\\\n  o   o   o      o   o    o\n')
+
     print('It was poisonous.\nGame over.')
 else:
   print("The frog hops aways... ... ...")
