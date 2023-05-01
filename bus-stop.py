@@ -50,7 +50,8 @@ else:
       input("press enter to continue")
       print("It's your bus!! but it appears to be lost in time.")
       print('''
-            As it drops you off at your destination, \nyou take a look around and realize that you have traveled through time.
+            As it drops you off at your destination, 
+            you take a look around and realize that you have traveled through time.
             People are dressed differently and have different hairstyles 
             Awesome! Don't tell anyone! 
             Go win the lottery and buy some stocks.
