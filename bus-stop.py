@@ -23,3 +23,30 @@ print('''
 
 if kiss_frog == 'yes':
     print('It was poisonous.\nGame over.')
+else:
+  print("The frog hops aways... ... ...")
+  print("An odd orange bus arrives.")
+  print("It has the identification of your bus in It")
+  print("weird... The door opens.. its 5 min early, a voice calls you")
+  bus_decision =  input("What do you do? run? do nothing ? get on the bus? ")
+  if bus_decision.lower() == 'run':
+    print("You get to a safe place. Call an uber. You're back home to your boring routine\nGame over")
+  elif bus_decision.lower() == 'do nothing':
+    print("The strange bus drives away...")
+    print("Your bus arrives. your are back to your boring routine\nGame over")
+  elif bus_decision.lower() != 'get on the bus':
+    print('Game over.')
+  else:
+      print("The driver apologizes for being a little late.")
+      print("Somthing is strange. The Bus's design seems from 40 years ago")
+      print("but the behicle looks brand new.")  
+      input("press enter to continue")
+      print("It is your bus!! But apears to be lost in time")
+      print('''
+              As it dropps you by your place, you take a look around and realize you travelled in time
+              people are dressed in and have different hair style. 
+              Awesome! Don't tell anyone. 
+              Go win the lotery and buy some stocks.
+              You win!
+           ''') 
+    
