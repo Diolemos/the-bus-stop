@@ -23,10 +23,19 @@ if kiss_frog == 'yes':
     print('It was poisonous.\nGame over.')
 else:
   print("The frog hops aways... ... ...")
+  print("   .(0,-.0)._")
+  print("  (------,   ` -. _")
+  print("    \.____/         \._")
+  print("     / /  /  __          \_._")
+  print("   / /   / ./  \_____./'\._  <")
+  print("/\/\    /\/\    \  /       \/'")
+  print("                 \ \_")
+  print("               ./\/\/'\n")
+  input("press enter to continue")
   print("An odd orange bus arrives.")
   print("It has the identification of your bus in It")
   print("weird... The door opens.. its 5 min early, a voice calls you")
-  bus_decision =  input("What do you do? run? do nothing ? get on the bus? ")
+  bus_decision =  input("What do you do? run? do nothing ? get on the bus? \n")
   if bus_decision.lower() == 'run':
     print("You get to a safe place. Call an uber. You're back home to your boring routine\nGame over")
   elif bus_decision.lower() == 'do nothing':
